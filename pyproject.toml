@@ -1,0 +1,13 @@
+[project]
+name = "yrube"
+version = "0.1.0"
+description = "Simple API for learning Django"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["django>=5.2.4"]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.4.1",
+    "pytest-django>=4.11.1",
+]
